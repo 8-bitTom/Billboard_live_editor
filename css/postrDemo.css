@@ -1,0 +1,138 @@
+#image_editor{
+	margin-left:8px;
+	margin-top:40px;
+	width: 104px;
+	text-align: center;
+}
+#tojpg{
+	/*margin-left:43px;*/
+	margin-top:10px;
+	margin-left:-10px;
+	width:124px;
+}
+.row{
+	float: left;
+	width:100%;
+	clear: both;
+}
+.col{
+	float: left;
+	clear: none;
+}
+.rel{
+	position: relative;
+}
+.abs{
+	position: absolute;
+}
+.blox{
+	display: block;
+}
+.floatR{
+	float: right;
+}
+.container{
+	margin: 0 auto;
+	width: 980px;
+	height: auto;
+}
+.header{
+	height:160px;
+	width: 980px;
+	background: url("../img/postrHeader.jpg") no-repeat;
+}
+.footer{
+	height: 129px;
+	width:980px;
+	background: url("../img/postrFooter.jpg") no-repeat;
+}
+.postrContainer{
+	width:980px;
+}
+.postrBg{
+	margin: 20px auto;
+	width:586px;
+	height:447px;
+	background: url("../img/insert-banner.jpg") no-repeat;
+}
+.postrFG{
+	margin: -467px auto 0px auto;
+	width:586px;
+	height:447px;
+}
+.top_spacer{
+	height: 40px;
+}
+.left_spacer{
+	width: 43px;
+	height: 20px;
+}
+.postr_banner{
+	width: 494px;
+	height: 128px;
+	background: #000;
+}
+.photoframe{
+	width: 122px;
+	height: 128px;
+	overflow: hidden;
+}
+#uploader{
+    width: 122px;
+    height: 128px;
+    position: absolute;  /* making it absolute with z-index:1 will place it on top of the button */
+    background: url("../img/imgPHolder.jpg") no-repeat;
+    z-index: 1;
+    top:0;
+    right:0;
+    padding:0;
+    margin: 0;
+    cursor: pointer;
+}
+.uploadedImg{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.textContainer{
+	height:128px;
+	width:372px;
+	overflow: hidden;
+}
+.textarea{
+	background: none;
+	margin-top: 1px;
+	margin-left: 5px;
+	width:367px;
+	height: 128px;
+	line-height: 1;
+	border: none;
+	font-family: arial;
+	font-size: 40px;
+	color: #fff;	
+}
+textarea{
+	resize: none;
+}
+.wysiwygContainer{
+	font-family: arial;
+	font-weight: bold;
+	line-height: 1;
+	width: 225px;
+	text-align: center;
+	background: #ededed;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/*jquery ui overides*/
+.ui-button .ui-button-text
+{
+   padding: 0px 2px 0px 2px !important;
+   font-size: .72em !important;
+}
+
+button.ui-button-icon-only
+{
+	width : 16px !important;
+}
